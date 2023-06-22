@@ -18,11 +18,13 @@ Installers:
   InstallerUrl: https://github.com/PowerShell/PowerShell/releases/download/v7.3.3/PowerShell-7.3.3-win-x64.msi
   InstallerSha256: E3C58761D9D0863CB7EE23170108EB47B675DA7B0FFEE3412D3630F7B249452E
   ProductCode: '{8E26535E-5F2C-448D-BB9D-447474DAC463}'
+  ElevationRequirement: elevatesSelf
 - Architecture: x86
   InstallerType: wix
   InstallerUrl: https://github.com/PowerShell/PowerShell/releases/download/v7.3.3/PowerShell-7.3.3-win-x86.msi
   InstallerSha256: E3A879E59624DF732893C7582CB915A44F67C28B765F81EE9269D2D8D998C9E5
   ProductCode: '{850D3DE3-2ECD-459D-9677-8305F5A8866E}'
+  ElevationRequirement: elevatesSelf
 - Architecture: arm
   MinimumOSVersion: 10.0.17763.0
   Platform:
